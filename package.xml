@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Softprodigy_DiscountBox</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>DiscountBox</summary>
+    <description>DiscountBox</description>
+    <notes>DiscountBox</notes>
+    <authors><author><name>SoftProdigyINC</name><user>softprodigy</user><email>magento@softprodigy.com</email></author></authors>
+    <date>2014-03-11</date>
+    <time>11:01:34</time>
+    <contents><target name="magecommunity"><dir name="Softprodigy"><dir name="CheckoutDiscountCode"><dir name="Block"><dir name="Checkout"><file name="Cart.php" hash="0ace19b424d549bd83555e5e6afd16dc"/><dir name="Onepage"><file name="Discountcode.php" hash="33085e6aeb075bf57207fb2b045f1de1"/><file name="Progress.php" hash="b8b569f2e6b7274f6c24eaf7e7bc3f2f"/></dir><file name="Onepage.php" hash="5a84d7c27ae6a7a99867ddfa162a7d33"/></dir></dir><dir name="Helper"><file name="Data.php" hash="563fc8bec19fc4f096aab0fa1f83a722"/></dir><dir name="Model"><file name="Observer.php" hash="2b909b0970e478eb6996add7e97ff90d"/></dir><dir name="controllers"><file name="IndexController.php" hash="15f970d7227bb3f10292d2d1386cd559"/></dir><dir name="etc"><file name="config.xml" hash="ae3d54b913e8929ba641ed736eeb6afd"/><file name="system.xml" hash="ec9ab65aad51ac7082e5fba20c3b6168"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="softprodigy_checkoutdiscountcode.xml" hash="bc5a478871d03ecf5d2c9387819da4bc"/></dir><dir name="template"><dir name="softprodigy_checkoutcouponcode"><dir name="checkout"><dir name="onepage"><file name="discountcode.phtml" hash="6de8add389c0ce5a5aaa2e2a39eb6274"/><file name="progress.phtml" hash="9bbb74039a66f3397394e6be89db5536"/></dir></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Softprodigy_CheckoutDiscountCode.xml" hash="7d45e0bc0470aa4cde1ed9f9bd9806ea"/></dir></target><target name="mage"><dir name="js"><dir name="softprodigy_checkoutdiscountcode"><file name="checkout.js" hash="45212569483fba071e53bfc45e9c243c"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php><package><name>Mage_Core_Modules</name><channel>community</channel><min>1.5.0</min><max>1.8.1</max></package><extension><name>gd</name><min>2.0.28</min><max>3.0</max></extension></required></dependencies>
+</package>
