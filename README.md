@@ -1,4 +1,4 @@
-# couponcodeoncheckout
+# Coupon Code on Checkout
 A Magento Extention to Apply Coupon Code during Checkout Process
 
 This Module allows customers to add a coupon code during checkout process of their product. One can easily add coupon code to avail discount offered by the store owner during the checkout process.
